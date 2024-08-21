@@ -1,9 +1,11 @@
 from flask import Flask, request, jsonify
 import requests
 import urllib.parse
+from flask_cors import CORS
 
 
 app = Flask(__name__)
+CORS(app)
 
 apikey = '7fd3ff94eb8741edaaca'
 base_url = 'http://openapi.foodsafetykorea.go.kr/api/'
