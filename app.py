@@ -8,7 +8,7 @@ app = Flask(__name__)
 CORS(app)
 
 apikey = '7fd3ff94eb8741edaaca'
-base_url = 'http://openapi.foodsafetykorea.go.kr/api/'
+base_url = 'https://cors-anywhere.herokuapp.com/http://openapi.foodsafetykorea.go.kr/api/'
 
 @app.route('/search_recipe', methods=['GET'])
 def search_recipe():
