@@ -81987,7 +81987,7 @@ s=q}while(true)switch(s){case 0:n.ab(new A.anx(n))
 q=3
 j=t.N
 s=6
-return A.Q(A.arU(A.hf("http://127.0.0.1:5000/search_recipe?ingredient="+n.d),A.aG(["Content-Type","application/json"],j,j)),$async$wI)
+return A.Q(A.arU(A.hf("http://10.0.2.2:5000/search_recipe?ingredient="+n.d),A.aG(["Content-Type","application/json"],j,j)),$async$wI)
 case 6:m=b
 if(m.b===200){j=m
 l=B.b6.t8(0,A.Ys(A.Yf(j.e).c.a.h(0,"charset")).e5(0,j.w),null)
